@@ -1,0 +1,147 @@
+body {
+	font-family: "Inter";
+	margin: 0;
+}
+h1 {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+.content {
+	margin: 0 20vw;
+	display: grid;
+	grid-template-columns: repeat(5, 12vw);
+	grid-template-rows: repeat(5, 20vh);
+}
+.title {
+	grid-column: 3 / 6;
+	grid-row: 2;
+	font-size: 4.5vh;
+	text-align: right;
+}
+.title-img {
+	height: 50vh;
+	grid-column: 1 / 3;
+	grid-row: 2;
+	transform: scaleX(-1);
+}
+.back {
+	grid-column: 1 / 2;
+	grid-row: 5;
+	height: 80vh;
+}
+.next {
+	grid-column: 5 / 6;
+	grid-row: 5;
+	height: 80vh;
+	transform: scaleX(-1);
+}
+.btn {
+	height: 10vh;
+}
+.about {
+	border-radius: 20px;
+	color:  white;
+	height: 18vh;	
+	text-align: center;
+}
+.about-1 {
+	background-color: #ffec83;
+	grid-column: 1 / 3;
+	grid-row: 3;
+}
+.about-2 {
+	background-color: #ff836e;
+	grid-column: 3 / 5;
+	grid-row: 4;
+}
+.about-3 {
+	background-color: #58a1b4;
+	grid-column: 5 / 6;
+	grid-row: 3;
+}
+.about-4 {
+	background-color: #b9e6e1;
+	grid-column: 1 / 2;
+	grid-row: 2;
+}
+.person {
+	height: 20vh;
+}
+.per1 {
+	grid-column: 2 / 3;
+	grid-row: 2;
+}
+.per2 {
+	transform: scaleX(-1);
+	grid-column: 4 / 5;
+	grid-row: 3;	
+}
+.one {
+	grid-column: 3 / 4;
+	grid-row: 2 /3;
+	text-align: center;
+}
+.two {
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+	text-align: center;
+}
+.three {
+	grid-column: 5 / 6;
+	grid-row: 3 / 4;
+	text-align: center;
+}
+.four {
+	grid-column: 3 / 4;
+	grid-row: 4 /5;
+	text-align: center;
+}
+.profile {
+	height: 25vh;
+}
+.first {
+	text-align: center;
+	grid-column: 2 / 3;
+	grid-row: 5;
+	align-self: center;
+}
+.second {
+	text-align: center;
+	grid-column: 3 / 4;
+	grid-row: 5;
+	align-self: center;
+}
+.third {
+	text-align: center;
+	grid-column: 4 / 5;
+	grid-row: 5;
+	align-self: center;
+}
+.video {
+	background-color: black;
+	border-radius: 20px;
+	border: 5px solid white;
+	height: 40vh;
+	grid-column:2 / 5;
+	grid-row: 3;
+	position: relative;
+}
+.logo {
+	height: 24vh;
+ 	position: absolute;
+ 	left: 12.2vw;
+ 	top: 7.5vh;
+}
+footer {
+	background-color: #c6c6c6;
+	color:  white;
+	height: 15vh;
+	text-align: center;
+	margin-bottom: 0;
+	padding: 8vh 0 0;
+}
+.new-btn {
+	height: 10vh;
+}
